@@ -15,6 +15,11 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+
+                    <div >
+                        <h1>Hello</h1>
+                        
+                    </div>
                 </div>
             </div>
         </div>
