@@ -37,6 +37,8 @@ Route::namespace('Api')->group(function () {
         Route::post('logout', [AuthController::class, 'logout']);
         Route::get('/home',[ StudentController::class, 'index']);
         Route::post('/create',[ StudentController::class, 'create']);
+        Route::patch('/edit/{id}',[ StudentController::class, 'edit']);
+        Route::put('/update/{id}',[ StudentController::class, 'update']);
     });
 
  
